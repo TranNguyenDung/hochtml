@@ -1,0 +1,28 @@
+@charset "utf-8";
+body{
+    margin:0;
+
+}
+#panel{
+    margin: 50px 0px 0px 50px;
+    width:400px;
+    outline: 1px solid rgb(204, 99, 0);
+    border:1px solid rgb(54, 0, 204);
+    max-height: 50px;
+    overflow:scroll;
+}
+
+#trai{
+    width: 50px;
+    height: 80px;
+    background-color:#3c0;
+    float: right;
+}
+
+#xoa{
+    clear: both;
+}
+
+#xoa1{
+    clear: both;
+}
