@@ -1,0 +1,120 @@
+@charset "utf-8";
+body{
+    margin:30px;
+}
+
+/*vidu_tranform_translate*/
+#vidu_tranform_translate{
+    width: 100px;
+    height: 100px;
+    background-color: #093;
+    transition: 1s;
+}
+#vidu_tranform_translate:hover{
+    transform: translate(100px,0px);
+}
+
+/*vidu_tranform_rotate*/
+#vidu_tranform_rotate{
+    width: 100px;
+    height: 100px;
+    background-color: #093;
+    transition: 1s;
+}
+#vidu_tranform_rotate:hover{
+    transform: rotate(-45deg);
+}
+
+/*vidu_tranform_scalee*/
+#vidu_tranform_scale{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(153, 130, 0);
+    transition: 1s;
+}
+#vidu_tranform_scale:hover{
+    transform: scale(2,3);
+}
+
+/*vidu_tranform_skew*/
+#vidu_tranform_skew{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(153, 130, 0);
+    transition: 1s;
+}
+#vidu_tranform_skew:hover{
+    transform: skew(45deg,10deg);
+}
+
+/* vidu_tranform_matrix */
+#vidu_tranform_matrix{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(153, 130, 0);
+    transition: 1s;
+}
+#vidu_tranform_matrix:hover{
+    transform: matrix(1, 2, 3, 4, 5, 6);
+}
+
+/* vidu_tranform3d_rotateX */
+#vidu_tranform3d_rotateX{
+    width: 100px;
+    height: 100px;
+    background-color: #90C;
+    transition: 1s;
+}
+#vidu_tranform3d_rotateX:hover{
+    transform:rotateX(45deg);
+}
+
+/*vidu_tranform3d_rotateXy*/
+#vidu_tranform3d_rotateXy{
+    width: 100px;
+    height: 100px;
+    background-color: #90C;
+    transition: 1s;
+}
+#vidu_tranform3d_rotateXy:hover{
+    transform:rotateX(45deg) rotateY(45deg);
+}
+
+/* vidu_tranform3d_rotateXyz */
+#vidu_tranform3d_rotateXyz{
+    width: 100px;
+    height: 100px;
+    background-color: #90C;
+    transition: 1s;
+}
+#vidu_tranform3d_rotateXyz:hover{
+    transform:rotateX(45deg) rotateY(45deg) rotateZ(45deg);
+}
+
+
+/* vidu_tranform3d_rotate3D */
+#vidu_tranform3d_rotate3D{
+    width: 100px;
+    height: 100px;
+    background-color: #Fc9;
+    transition: 1s;
+}
+#vidu_tranform3d_rotate3D:hover{
+    transform: rotate3d(1,0,1,45deg);
+}
+
+
+/*vidu_transition*/
+#vidu_transition{
+    width: 100px;
+    height: 100px;
+    background-color: #F90;
+    transition:1s;
+    transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+#vidu_transition:hover{
+    width: 300px;
+    height: 300px;
+}
